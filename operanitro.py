@@ -39,7 +39,7 @@ while True:
     except Exception as e:
         print(Fore.RED + "- An error occurred: " + str(e)) # fuck
     finally:
-        # 1 sec delay thing
+        # delay thing
         time.sleep(0)
 
 # reset the colorama thingy idfk
